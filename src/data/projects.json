@@ -1,0 +1,25 @@
+{
+    "projects":[
+        {
+            "cover":"/cover_images/notes.jpg",
+            "title":"Notes",
+            "description":"React, MongoDB Compass, Node JS, Thunder Client",
+            "url":"/afterdeployment"
+
+        },
+        {
+            "cover":"/cover_images/news.jpg",
+            "title":"News Application",
+            "description":"React,Javascript",
+            "url":"/afterdeployment"
+        },
+        {
+            "cover":"/cover_images/quora.png",
+            "title":"Quora Clone",
+            "description":"React, MongoDB, Node JS, Express, Postman",
+            "url":"/afterdeployment"
+
+        }
+
+    ]
+}
