@@ -1,4 +1,3 @@
-import { useEffect, useRef } from 'react';
 import './index.scss';
 import LogoS from '../../../assets/images/logo-s.png'
 

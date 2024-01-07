@@ -1,7 +1,6 @@
 import AnimatedLetters from "../AnimatedLetters";
 import { useState, useEffect } from "react";
 import './index.scss'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {FaReact, FaJava, FaHtml5, FaCss3, FaNodeJs} from 'react-icons/fa'
 import Loader from "react-loaders";
 const About=()=>{
