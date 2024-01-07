@@ -2,7 +2,7 @@ import AnimatedLetters from "../AnimatedLetters";
 import { useState, useEffect } from "react";
 import './index.scss'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faReact, faJava, faHtml5, faCss3, faNodeJs, faJsSquare} from '@fortawesome/free-brands-svg-icons'
+import {FaReact, FaJava, FaHtml5, FaCss3, FaNodeJs} from 'react-icons/fa'
 import Loader from "react-loaders";
 const About=()=>{
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -42,22 +42,22 @@ const About=()=>{
                 <div className="stage-cube-cont">
                     <div className="cubespinner">
                         <div className="face1">
-                            <FontAwesomeIcon icon={faReact} color="#DD0031"/>
+                            <FaReact/>
                         </div>
                         <div className="face2">
-                            <FontAwesomeIcon icon={faJava} color="#F06529"/>
+                            <FaJava/>
                         </div>
                         <div className="face3">
-                            <FontAwesomeIcon icon={faHtml5} color="#28A409"/>
+                            <FaHtml5/>
                         </div>
                         <div className="face4">
-                            <FontAwesomeIcon icon={faCss3} color="#5ED4F4"/>
+                            <FaCss3/>
                         </div>
                         <div className="face5">
-                            <FontAwesomeIcon icon={faNodeJs} color="#EFD81D"/>
+                            <FaNodeJs/>
                         </div>
                         <div className="face6">
-                            <FontAwesomeIcon icon={faJsSquare} color="#EC4D28"/>
+                            <FaCss3/>
                         </div>
                     </div>
                 </div>
