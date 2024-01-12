@@ -19,6 +19,13 @@
             "description":"React, MongoDB, Node JS, Express, Postman",
             "url":"/afterdeployment"
 
+        },
+        {
+            "cover":"/cover_images/notes.jpg",
+            "title":"Text Utils ",
+            "description":"React",
+            "url":"https://text-utils-kohl-ten.vercel.app/"
+
         }
 
     ]
