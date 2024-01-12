@@ -11,7 +11,7 @@
             "cover":"/cover_images/news.jpg",
             "title":"News Application",
             "description":"React,Javascript",
-            "url":"/afterdeployment"
+            "url":"https://news-app-alpha-blond.vercel.app/"
         },
         {
             "cover":"/cover_images/quora.png",
