@@ -26,6 +26,13 @@
             "description":"React",
             "url":"https://text-utils-kohl-ten.vercel.app/"
 
+        },
+        {
+            "cover":"/cover_images/shpon.webp",
+            "title":"Shopon E-commerce app",
+            "description":"Basic front end application using redux for e-commerce",
+            "url":"shopon-redux.vercel.app"
+
         }
 
     ]
