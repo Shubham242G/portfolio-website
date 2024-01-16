@@ -28,7 +28,7 @@
 
         },
         {
-            "cover":"/cover_images/shpon.webp",
+            "cover":"/cover_images/shopon.jpg",
             "title":"Shopon E-commerce app",
             "description":"Basic front end application using redux for e-commerce",
             "url":"shopon-redux.vercel.app"
