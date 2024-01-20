@@ -1,7 +1,7 @@
 .home-page{
     .text-zone{
         position: absolute;
-        left: 10%;
+        left: 17%;
         top: 50%;
         transform: translateY(-50%);
         width: 50%;
@@ -15,6 +15,7 @@
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
+        white-space: nowrap;
 
         &::before{
             content: '<h1>';

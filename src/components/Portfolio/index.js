@@ -19,11 +19,11 @@ const Portfolio=()=>{
 
     const renderProjects = (projects)=>{
         return(
-            <div className='images-container'>
+            <div className='images-container '>
                 {
                     projects.map((project, idx)=>{
                         return(
-                            <div className='image-box' key={idx}>
+                            <div className='image-box'  key={idx}>
                                 <img src={project.cover}
                                     className='project-image'
                                     alt="project"/>
@@ -36,7 +36,8 @@ const Portfolio=()=>{
                         )
                     })
                 }
-            </div>
+                </div>
+            
         )
     }
     return(
