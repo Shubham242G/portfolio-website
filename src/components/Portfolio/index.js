@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import projectData from '../../data/projects.json'
 import { useEffect } from 'react';
+
 const Portfolio=()=>{
 
     const [letterClass, setLetterClass]= useState('text-animate');
@@ -19,10 +20,12 @@ const Portfolio=()=>{
 
     const renderProjects = (projects)=>{
         return(
-            <div className='images-container '>
+            <div className='images-container'>
+                
                 {
                     projects.map((project, idx)=>{
                         return(
+                            
                             <div className='image-box'  key={idx}>
                                 <img src={project.cover}
                                     className='project-image'
@@ -33,11 +36,12 @@ const Portfolio=()=>{
                                         <button className='btn'onClick={()=> window.open(project.url)}>Open Live</button>
                                     </div>
                             </div>
+                            
                         )
                     })
                 }
-                </div>
-            
+                
+            </div>
         )
     }
     return(

@@ -38,8 +38,8 @@ const Contact = () =>{
         <>
             <div className='container contact-page'>
                 <div className='text-zone'>
-                    <h1>
-                        <AnimatedLetters strArray={['C','o','n','t','a','c','t',' ','m','e',]}
+                    <h1 >
+                        <AnimatedLetters className="page-title" strArray={['C','o','n','t','a','c','t',' ','m','e',]}
                         idx={15}
                         letterClass={letterClass}/>
                     </h1>
