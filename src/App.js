@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Inotebook from './components/inotebook';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route path='/about' element={<About/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/portfolio' element={<Portfolio/>}></Route>
-
+          <Route path='/inotebook' element={<Inotebook/>}></Route>
         </Routes>
       </Router>
     </div>
