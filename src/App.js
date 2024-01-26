@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Inotebook from './components/inotebook';
+import Quora from './components/quora';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/portfolio' element={<Portfolio/>}></Route>
           <Route path='/inotebook' element={<Inotebook/>}></Route>
+          <Route path='/quora' element={<Quora/>}></Route>
         </Routes>
       </Router>
     </div>
