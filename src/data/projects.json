@@ -16,7 +16,7 @@
         {
             "cover":"/cover_images/realestate.jpg",
             "title":"Reales8",
-            "description":"React, nodeMailer",
+            "description":"React, nodeMailer, tailwind, framer motion",
             "url":"https://realest8.vercel.app/"
 
         },
